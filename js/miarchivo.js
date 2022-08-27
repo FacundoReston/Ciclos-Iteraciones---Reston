@@ -3,12 +3,12 @@
 for (i = 1; i <= 10; i++) {
     let nombre = prompt("Ingrese su nombre");
     if (nombre === "") {
-        alert("No ingresaste tu nombre")
+        alert("No ingresaste tu nombre");
     } else {
         alert(`Hola ${nombre}, tienes el turno N° ${i}`);
         while (i === 10) {
             alert("No hay turnos disponibles");
-            prompt("Ingrese su nombre")
+            prompt("Ingrese su nombre");
         }
     }
 }
